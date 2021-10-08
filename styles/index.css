@@ -73,10 +73,14 @@ nav ul li {
   color: #c00404 !important;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #3b302c !important;
-  transition: color 300ms ease-in-out;
+  /* color: #3b302c !important; */
+  font-size: 18px;
+  transition: color 200ms ease-in-out;
+  border-bottom: 5px solid transparent;
 }
 nav ul li a:hover {
+  border-bottom: 5px solid #c00404 !important;
+  border-radius: 4px;
   color: #c00404 !important;
 }
 /* footer */

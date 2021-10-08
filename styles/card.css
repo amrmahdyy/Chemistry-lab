@@ -1,0 +1,54 @@
+body {
+  font-family: "Inter" !important;
+  box-sizing: border-box;
+}
+.personCard {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 1fr;
+  box-shadow: 0 0 10px #7b7b7b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    242deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 241, 69, 1) 0%,
+    rgba(255, 255, 255, 1) 41%
+  );
+}
+.personCard img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #7b7b7b;
+}
+.cardMainInfo {
+  text-align: center;
+  grid-column: 1/3;
+}
+.cardDetails {
+  align-self: center;
+  grid-column: 3/7;
+}
+.personCard .position {
+  display: inline-block;
+  box-shadow: 0 0 2px #7b7b7b;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 2px 4px;
+  transition: all 300ms ease-in-out;
+}
+.personCard .position:hover {
+  box-shadow: 0 0 4px #7b7b7b;
+  background-color: rgb(226, 226, 226);
+}
+.personCard .name {
+  font-weight: 600;
+}
+.personCard .department {
+  text-align: center;
+  font-weight: 600;
+}
