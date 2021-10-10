@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 .personCard {
-  width: 600px;
+  max-width: 600px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 1fr;
@@ -19,18 +19,29 @@ body {
     rgba(255, 255, 255, 1) 41%
   );
 }
-.personCard img {
-  width: 50%;
+.personCard .circularImage {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  box-shadow: 0 0 5px #7b7b7b;
+  overflow: hidden;
+  margin: auto;
+  border: 5px solid rgb(238, 238, 238);
+}
+.personCard img {
+  width: 100%;
+  transition: all 300ms ease-in-out;
+}
+.personCard img:hover {
+  transform: scale(1.1);
 }
 .cardMainInfo {
   text-align: center;
   grid-column: 1/3;
 }
 .cardDetails {
-  align-self: center;
+  margin-top: 50px;
   grid-column: 3/7;
+  text-align: center;
 }
 .personCard .position {
   display: inline-block;
