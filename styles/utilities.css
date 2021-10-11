@@ -1,0 +1,15 @@
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #c00404 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  /* color: #3b302c !important; */
+  font-size: 18px;
+  transition: color 200ms ease-in-out;
+  border-bottom: 5px solid transparent;
+}
+#mainNavbar ul li a:hover {
+  border-bottom: 5px solid #c00404 !important;
+  border-radius: 4px;
+  color: #c00404 !important;
+}
