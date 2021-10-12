@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: "Inter" !important;
-  box-sizing: border-box;
-}
+
 /* header */
 .contactUsHeaderContainer {
   position: relative;
@@ -28,28 +25,19 @@ body {
   width: 100%;
   height: 100%;
 }
-/* box Container */
-.boxContainer {
-  display: block;
-  position: relative;
-  background-color: white;
-  margin-top: -50px;
-  z-index: 10;
-  box-shadow: 0 0 10px #7d7d7d;
-  border-radius: 5px;
-  margin-bottom: 50px;
-}
+
 /* main */
 
 .contactUsCardsContainer {
   grid-gap: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
 }
 .contactUsCard {
-  display: grid;
+  grid-column: 2/4;
+  /* display: grid; */
   /* width: 500px; */
   grid-template-columns: repeat(6, 1fr);
   padding: 10px 5px;
@@ -117,6 +105,9 @@ body {
 @media screen and (max-width: 992px) {
   .contactUsCardsContainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .contactUsCard {
+    grid-column: 1/2;
   }
   #location {
     text-align: center;

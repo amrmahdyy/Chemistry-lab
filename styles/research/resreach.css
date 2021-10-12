@@ -1,0 +1,11 @@
+.backgroundHome {
+  background: rgb(59, 223, 118);
+  background: linear-gradient(
+    242deg,
+    rgb(223, 59, 59) 12%,
+    rgb(190, 0, 104) 89%
+  );
+}
+.backgroundHome .darkOverlay {
+  display: none;
+}
