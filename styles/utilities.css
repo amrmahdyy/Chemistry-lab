@@ -33,6 +33,14 @@ body {
   color: white;
   z-index: 1;
 }
+.uniLogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 200px;
+  height: 300px;
+}
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
@@ -116,7 +124,8 @@ aside {
 footer {
   padding: 20px 0;
   color: white;
-  background-color: #00151a;
+  background-color: rgb(44, 44, 44);
+  /* color: black; */
 }
 footer .copyRight {
   margin-top: 10px;
@@ -156,6 +165,11 @@ footer #map iframe {
     grid-column: 1/7;
   }
 }
+/* Bootstrap overrides for carrousel */
+.carousel-control-next,
+.carousel-control-prev,.carousel-indicators /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
 
 @media screen and (max-width: 768px) {
   footer .footerContainer {
@@ -163,5 +177,9 @@ footer #map iframe {
   }
   footer #map {
     justify-self: center;
+  }
+  .uniLogo {
+    width: 100px;
+    height: 150px;
   }
 }

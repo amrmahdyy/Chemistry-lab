@@ -1,0 +1,16 @@
+.backgroundHome {
+  background: rgb(59, 223, 118);
+  background: linear-gradient(
+    242deg,
+    rgb(182, 47, 115) 12%,
+    rgb(156, 123, 152) 89%
+  );
+}
+.backgroundHome .darkOverlay {
+  display: none;
+}
+.missouriResearchList li {
+  margin: 7px 0;
+  list-style: decimal;
+  line-height: 1.7em;
+}
