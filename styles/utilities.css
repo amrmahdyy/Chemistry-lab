@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 350px;
   display: flex;
-  background: url("../Assets/homePage/REVISED\ BANNER\ MAIN_medium.png");
+  background: url("../Assets/Utilities/MST-BertelsmeyerHall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,8 +35,8 @@ body {
 }
 .uniLogo {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   z-index: 100;
   width: 200px;
   height: 300px;
@@ -178,8 +178,8 @@ footer #map iframe {
   footer #map {
     justify-self: center;
   }
-  .uniLogo {
+  /* .uniLogo {
     width: 100px;
     height: 150px;
-  }
+  } */
 }
