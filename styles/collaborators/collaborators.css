@@ -1,4 +1,4 @@
-.backgroundHome {
+/* .backgroundHome {
   background: rgb(59, 223, 118);
   background: linear-gradient(
     242deg,
@@ -8,7 +8,7 @@
 }
 .backgroundHome .darkOverlay {
   display: none;
-}
+} */
 .collaboratorsContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -1,4 +1,4 @@
-.backgroundHome {
+/* .backgroundHome {
   background: rgb(59, 223, 118);
   background: linear-gradient(
     242deg,
@@ -8,7 +8,7 @@
 }
 .backgroundHome .darkOverlay {
   display: none;
-}
+} */
 .missouriResearchList li {
   margin: 7px 0;
   list-style: decimal;
