@@ -35,6 +35,7 @@
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
 }
+/* Cards */
 .contactUsCard {
   grid-column: 2/4;
   /* display: grid; */
@@ -72,6 +73,7 @@
 .infoContainer > * {
   margin: 10px 0px;
 }
+
 /* location */
 .labLocation {
   align-self: center;

@@ -6,12 +6,13 @@
   box-shadow: 0 0 10px #7b7b7b;
   border-radius: 10px;
   padding: 10px;
-  margin: 10px;
+  margin: auto;
+  margin-bottom: 10px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     242deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(255, 241, 69, 1) 0%,
+    rgb(255, 241, 87) 0%,
     rgba(255, 255, 255, 1) 41%
   );
 }
