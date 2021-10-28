@@ -14,3 +14,14 @@
   list-style: decimal;
   line-height: 1.7em;
 }
+
+.grantAmount {
+  font-weight: bold;
+}
+
+.grants td::before:nth-col(1) {
+  content: "(";
+}
+.grants td::after {
+  content: ")";
+}

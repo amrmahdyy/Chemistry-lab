@@ -185,6 +185,20 @@ footer #map iframe {
   height: 300px;
 }
 
+/* table */
+table {
+  width: 100%;
+  /* border: 1px solid rgb(192, 192, 192);
+  border-radius: 20px; */
+}
+tr {
+  border-bottom: 1px solid #ddd !important;
+  padding-bottom: 5px !important;
+  padding: 10px 0;
+}
+td:first-child::after {
+  content: ".";
+}
 @media screen and (max-width: 768px) {
   footer .footerContainer {
     grid-template-columns: repeat(1, 1fr);
