@@ -25,12 +25,15 @@ body {
   width: 100%;
   position: absolute;
   bottom: 0;
-  top: 50%;
-  letter-spacing: 1.5px;
+  top: 35%;
+  letter-spacing: 1px;
   text-align: center;
   margin: 0;
   color: white;
   z-index: 1;
+}
+.pageName {
+  font-weight: bold;
 }
 .uniLogo {
   position: absolute;

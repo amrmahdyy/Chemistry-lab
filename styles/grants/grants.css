@@ -18,10 +18,13 @@
 .grantAmount {
   font-weight: bold;
 }
+.grants td:nth-child(2) {
+  margin: 0 5px;
+}
 
-.grants td::before:nth-col(1) {
+.grants td:nth-child(2)::before {
   content: "(";
 }
-.grants td::after {
+.grants td:nth-child(2)::after {
   content: ")";
 }
