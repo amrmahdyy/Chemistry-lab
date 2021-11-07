@@ -164,7 +164,34 @@ footer #map iframe {
   width: 300px;
   /* height: 400px; */
 }
+/* Video Container */
+.mediaContainer {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.mediaContainer video,
+img {
+  width: 350px;
+  height: 300px;
+}
+/* .mediaContainer img {
+  width: 100%;
+} */
+.mediaContainer p {
+  margin-top: 5px;
+  text-align: center;
+}
+.mediaContainer img,
+video {
+  display: block;
+  margin: auto auto;
+}
 /* media screen */
+
 @media screen and (max-width: 992px) {
   .infoContainer {
     grid-column: 1/7;
@@ -214,6 +241,18 @@ td:first-child::after {
   }
   .carousel-item img {
     height: 200px;
+  }
+  .mediaContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mediaContainer video,
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  .mediaContainer img {
+    display: block;
+    margin: auto auto;
   }
   /* .uniLogo {
     width: 100px;
