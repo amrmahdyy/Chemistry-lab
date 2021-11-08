@@ -19,6 +19,7 @@
 .personCard .circularImage {
   width: 150px;
   height: 150px;
+  background-position: center;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -26,6 +27,7 @@
 }
 .personCard img {
   width: 100%;
+  height: 100%;
   transition: all 300ms ease-in-out;
 }
 .personCard img:hover {

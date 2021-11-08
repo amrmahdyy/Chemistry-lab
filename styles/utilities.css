@@ -54,6 +54,10 @@ body {
   transition: color 200ms ease-in-out;
   border-bottom: 5px solid transparent;
 }
+#mainNavbar ul li a {
+  border-bottom: 5px solid transparent;
+  transition: color 100ms ease-in-out border-bottom 100ms ease-in-out;
+}
 #mainNavbar ul li a:hover {
   border-bottom: 5px solid #c00404 !important;
   border-radius: 4px;
@@ -190,8 +194,16 @@ video {
   display: block;
   margin: auto auto;
 }
+
 /* media screen */
 
+@media screen and (min-width: 992px) {
+  /* dropdown */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
 @media screen and (max-width: 992px) {
   .infoContainer {
     grid-column: 1/7;
