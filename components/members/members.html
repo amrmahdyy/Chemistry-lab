@@ -39,7 +39,126 @@
     <title>Members</title>
   </head>
   <body>
-  
+         <div class="wrapper">
+      <nav id="navbar">
+        <input type="checkbox" id="show-menu" />
+        <label for="show-menu" class="menu-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div class="content">
+          <ul class="links">
+            <label for="show-menu" class="menu-icon"
+              ><i class="far fa-times-circle"></i
+            ></label>
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#" class="desktop-link"
+                >Research <i class="fas fa-angle-right"></i
+              ></a>
+              <input type="checkbox" id="researchNavItem" />
+              <label for="researchNavItem"
+                >Research <i class="fas fa-angle-right"></i
+              ></label>
+              <ul>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Experimental Setup and Rigs</a></li>
+                <li><a href="#">Techniques</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-link"
+                >Publication <i class="fas fa-angle-right"></i
+              ></a>
+              <input type="checkbox" id="publicationNavItem" />
+              <label for="publicationNavItem"
+                >Publication<i class="fas fa-angle-right"></i
+              ></label>
+              <ul>
+                <li><a href="#">Publication</a></li>
+                <li><a href="#">Peer reviewed journals publication</a></li>
+                <li><a href="#">Contribution to chapters</a></li>
+                <li><a href="#">Peer reviewed proceeeding</a></li>
+                <li><a href="#">Non peer reviewed publication</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-link"
+                >Members <i class="fas fa-angle-right"></i
+              ></a>
+              <input type="checkbox" id="show-services" />
+              <label for="show-services"
+                >Members <i class="fas fa-angle-right"></i
+              ></label>
+              <ul>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Current students</a></li>
+                <li>
+                  <a href="#" class="desktop-link"
+                    >Alumni <i class="fas fa-angle-right"></i
+                  ></a>
+                  <input type="checkbox" id="show-items" />
+                  <label for="show-items"
+                    >Alumni <i class="fas fa-angle-right"></i
+                  ></label>
+                  <ul>
+                    <li class="missouriSTNavLink">
+                      <a href="#">Missouri S&T</a>
+                    </li>
+                    <li><a href="#">Washington University-Advisor</a></li>
+                    <li><a href="#">Washington University Co Advisor</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Grants</a></li>
+            <li>
+              <a href="#" class="desktop-link"
+                >Activities <i class="fas fa-angle-right"></i
+              ></a>
+              <input type="checkbox" id="activitiesNavItem" />
+              <label for="activitiesNavItem"
+                >Activities <i class="fas fa-angle-right"></i
+              ></label>
+              <ul>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Technical and Educational</a></li>
+                <li>
+                  <a href="#"
+                    >Technical Interactions with National laboratories</a
+                  >
+                </li>
+                <li><a href="#">Invited Talks</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Collaborators</a></li>
+            <li>
+              <a href="#" class="desktop-link"
+                >Awards <i class="fas fa-angle-right"></i
+              ></a>
+              <input type="checkbox" id="awardsNavItem" />
+              <label for="awardsNavItem"
+                >Awards & Honors <i class="fas fa-angle-right"></i
+              ></label>
+              <ul>
+                <li><a href="#">Awards & Honors</a></li>
+                <li><a href="#">Selected Awards</a></li>
+                <li>
+                  <a href="#">Selected Honors and Recognitions</a>
+                </li>
+                <li>
+                  <a href="#"
+                    >Selected Recognitions by Iraqi Universities and Higher
+                    Education</a
+                  >
+                </li>
+                <li><a href="#">Selected recent technical reports</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="backgroundHome">
      <div class="homeTitle">
         <h2>
@@ -54,114 +173,35 @@
                                 </svg></div>
     </div>
     <section id="main">
-      <div class="boxContainer container">
-        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand d-lg-none" href="#">SITE NAVIGATION</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="../../index.html"
-                    ><i class="fas fa-home fa-lg"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../research/research.html">Research</a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./members.html"  id="membersDropdown" role="button"   aria-expanded="false" >
-            Members
-          </a>
-                  <ul  class="navLinksDropdown dropdown-menu" aria-labelledby="membersDropdown">
-            <li><a class="dropdown-item" href="./members.html">Members</a></li>
-            <li><a class="dropdown-item" href="./currentStudents.html">Current Students</a></li>
-            <li><a class="dropdown-item" href="./missouriST.html">Missouri S&T</a></li>
-            <li><a class="dropdown-item" href="./washUniAdvisor.html">Washington University-Advisor</a></li>
-            <li><a class="dropdown-item" href="./washUniCoAdvisor.html">Washington University Co Advisor</a></li>
-          </ul>
-              </li>
-               
-                <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="../publications/publications.html"  id="publicationDropdown" role="button"   aria-expanded="false" >
-            Publications
-          </a>
-            <ul  class="navLinksDropdown dropdown-menu" aria-labelledby="publicationDropdown">
-            <li><a class="dropdown-item" href="../publications/publications.html">Publications</a></li>
-            <li><a class="dropdown-item" href="../publications/peerReviewed.html">Peer reviewed journals</a></li>
-            <li><a class="dropdown-item" href="./missouriST.html">Contribution to chapters</a></li>
-            <li><a class="dropdown-item" href="./washUniAdvisor.html">Peer reviewed proceeding</a></li>
-            <li><a class="dropdown-item" href="./washUniCoAdvisor.html">non peer reviewed publication</a></li>
-          </ul>
-                  
-                </li>
-                <li class="nav-item">
-                  <a href="../grants/grants.html" class="nav-link">Grants</a>
-                </li>
-
-                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="../activities/activites.html"  id="activitiesDropdown" role="button"   aria-expanded="false" >
-            Activites
-          </a>
-            <ul  class="navLinksDropdown dropdown-menu" aria-labelledby="activitiesDropdown">
-            <li><a class="dropdown-item" href="../activities/activites.html">Activites</a></li>
-            <li><a class="dropdown-item" href="../activities/technical&Education.html">Technical and educational</a></li>
-            <li><a class="dropdown-item" href="../activities/technicalInteraction.html">Technical interactions</a></li>
-            <li><a class="dropdown-item" href="../activities/news&media.html">News and media</a></li>
-            <li><a class="dropdown-item" href="../activities/invitedTalks.html">Invited talks</a></li>
-          </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="../awards&honors/awards.html" class="nav-link"></a>
-                
-                </li>
-                 <li class="nav-item">
-                  <a href="../contactUs/contactUs.html" class="nav-link">Collaborators</a>
-                </li>
-                <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="../activities/activites.html"  id="awardsDropdown" role="button"   aria-expanded="false" >
-            Awards & Honors
-          </a>
-            <ul  class="navLinksDropdown dropdown-menu" aria-labelledby="awardsDropdown">
-            <li><a class="dropdown-item" href="../awards&honors/awards.html">Awards & Honors</a></li>
-            <li><a class="dropdown-item" href="../awards&honors/selectedAwards.html">Selected Honors</a></li>
-            <li><a class="dropdown-item" href="../awards&honors/selectedRecognition.html">Selected Recognition</a></li>
-            <li><a class="dropdown-item" href="../awards&honors/selectedRecentTechnicalReports.html">Selected recent technical report</a></li>
-          </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="../contactUs/contactUs.html" class="nav-link">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
       
+      <div class="boxContainer container">
+       
         <main class="mainContainer">
          
           <!-- <aside class="d-none d-lg-block">     
             <nav id="sideNav">
               <ul>
+              
                 <li>
-                  <a href="./components/home/ResearchActivites.html">Research Activites</a>
+                  <a href="#">Current Students</a>
                 </li>
                 <li>
-                  <a href="#">Techniques</a>
+                  <a href="#">Alumni</a>
+                  <ul>
+                    <li>
+                      <a href="">Missoui S&T (Since 2009)</a>
+                    </li>
+                    <li>
+                      <a href="">Washington University - Advisor (1994-2008)
+</a>
+                    </li>
+                    <li>
+                      <a href="">Washington University - Co- Advisor (1994-2008)
+</a>
+                    </li>
+                  </ul>
                 </li>
-                <li>
-                  <a href="#">Experimental Setup and Rigs</a>
-                </li>
+ 
               </ul>
             </nav>
           </aside> -->
@@ -221,6 +261,11 @@
         >© Multiphase Reactors Engineering and Applications Laboratory</span
       >
     </footer>
+     <!-- <script>
+      $(".icon").click(function () {
+        $("span").toggleClass("cancel");
+      });
+    </script> -->
     <script src="../../scripts/index.js"></script>
 
     <script
