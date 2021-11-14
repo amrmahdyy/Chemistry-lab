@@ -53,8 +53,7 @@
             <li><a href="../../index.html">Home</a></li>
             <li>
               <a href="#" class="desktop-link"
-                >Research <i class="fas fa-angle-right"></i
-              ></a>
+                >Research <i class="fas fa-angle-right"></i></a>
               <input type="checkbox" id="researchNavItem" />
               <label for="researchNavItem"
                 >Research <i class="fas fa-angle-right"></i
@@ -164,6 +163,8 @@
         <h2>
           Linda and Bipin Doshi Department of Chemical & Biochemical Engineering
         </h2>
+        <div> Multiphase Flow and Reactors Engineering, Applications and
+          Education Laboratory ( mFReael)</div>
         <h1 class="pageName">Members</h1>
       </div>
             <div class="darkOverlay"></div>
@@ -177,36 +178,145 @@
       <div class="boxContainer container">
        
         <main class="mainContainer">
-         
-          <!-- <aside class="d-none d-lg-block">     
-            <nav id="sideNav">
-              <ul>
-              
-                <li>
-                  <a href="#">Current Students</a>
-                </li>
-                <li>
-                  <a href="#">Alumni</a>
-                  <ul>
-                    <li>
-                      <a href="">Missoui S&T (Since 2009)</a>
+          <aside class="d-none d-lg-block">     
+            <nav>
+              <ul class="list-group my-4">
+                 <li class="list-group-item">
+                   <a href="./currentStudents.html" class="text-decoration-none text-dark">
+                     Current Students</a>
                     </li>
-                    <li>
-                      <a href="">Washington University - Advisor (1994-2008)
-</a>
-                    </li>
-                    <li>
-                      <a href="">Washington University - Co- Advisor (1994-2008)
-</a>
-                    </li>
+                 <div class="dropdown dropend">
+                   <li class="list-group-item dropdown-toggle" type="button" id="sidenavDropdown" data-bs-toggle="dropdown" aria-expanded="false"> Alumni
+                   </li>
+                  <ul class="dropdown-menu" aria-labelledby="sidenavDropdown">
+                   <li><a class="dropdown-item"href="./missouriST.html">Missoui S&T (Since 2009)</a></li>
+                   <li><a class="dropdown-item"href="./washUniAdvisor.html">Washington University - Advisor</a></li>
+                  <li><a class="dropdown-item" href="./washUniCoAdvisor.html" >Washington University - Co- Advisor</a></li>
                   </ul>
-                </li>
- 
-              </ul>
+                </div>
+             </ul>
             </nav>
-          </aside> -->
+        </aside>
+         
           <section class="infoContainer">
-       <div>
+            <p class="text-start"> Our research group is composed of postdocs, graduate students, and undergrads, hailing from over 10 different countries. And though our research projects are diverse and take on a variety of forms, we all share the same knowledge and understanding of techniques. It is this combination of diversity and similarity that makes the Bent Group so good at what we do!</p>
+            <div
+            id="researchCarouselSlider"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#researchCarouselSlider"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="/Assets/Research/ProfessorInLab.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/Research/Al-Dahhanhonor2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/grants/picture1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/grants/picture2.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/grants/picture3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/grants/picture4.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#researchCarouselSlider"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#researchCarouselSlider"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      <!--  <div>
               <ul>
               <li><a href="./currentStudents.html" class="text-decoration-none"><h4>Current Students</h4></a></li>
               <li><a class="text-decoration-none text-dark"><h4>Alumni</h4></a>
@@ -217,9 +327,8 @@
                 </ul>
               </li>
             </ul>
-           </div>
-           
- 
+           </div> -->
+          
            <br>
           </section>
           
