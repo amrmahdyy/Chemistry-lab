@@ -1,15 +1,14 @@
 ul li a {
   text-decoration: none;
 }
-/*.imgcontainer {
-  max-width: 150px;
-  max-height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: auto;
-  box-shadow: 0 0 5px #777;
+#myimage{
+  width: 60%;
+  left: 0px;
+  right: 0px;
 }
-.imgcontainer img {
+
+#myimage img{
   width: 100%;
-  height: 100%;
-}*/
+  left: 0px;
+  right: 0px;
+}
