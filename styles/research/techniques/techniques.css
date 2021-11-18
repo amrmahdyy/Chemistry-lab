@@ -12,3 +12,7 @@ ul li a {
   left: 0px;
   right: 0px;
 }
+.videoContainer video {
+  display: block;
+    margin: 0 auto;
+}
