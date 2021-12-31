@@ -279,6 +279,7 @@ nav .content .links {
 .content .links ul {
   position: absolute;
   background: rgb(252, 252, 252);
+
   top: 80px;
   z-index: 20;
   opacity: 0;
@@ -303,6 +304,8 @@ nav .content .links {
   right: calc(-100% + 8px);
 }
 .content .links ul li {
+  border-bottom: 1px solid #ddd;
+
   position: relative;
 }
 .content .links ul li:hover ul {
