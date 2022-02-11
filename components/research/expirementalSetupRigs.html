@@ -25,6 +25,8 @@
   
     <link rel="stylesheet" href="../../styles/utilities.css">
       <link rel="stylesheet" href="../../styles/collaborators/collaborators.css" />
+      <link rel="stylesheet" href="../../styles/research/resreach.css" />
+
     <!-- css styles -->
     <link rel="shortcut icon" href="https://campus.mst.edu/emctest/t4v3/favicon/32px.png" type="image/x-icon" />
     <!-- Bootstrap cdn -->
@@ -40,125 +42,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav id="navbar">
-        <input type="checkbox" id="show-menu" />
-        <label for="show-menu" class="menu-icon"
-          ><i class="fas fa-bars"></i
-        ></label>
-        <div class="content">
-          <ul class="links">
-            <label for="show-menu" class="menu-icon"
-              ><i class="fas fa-times"></i
-            ></label>
-            <li><a href="/index.html">Home</a></li>
-            <li>
-              <a href="#" class="desktop-link"
-                >Research <i class="fas fa-angle-right"></i
-              ></a>
-              <input type="checkbox" id="researchNavItem" />
-              <label for="researchNavItem"
-                >Research <i class="fas fa-angle-right"></i
-              ></label>
-              <ul>
-                <li><a href="./research.html">Research</a></li>
-                <li><a href="./expirementalSetupRigs.html">Experimental Setup and Rigs</a></li>
-                <li><a href="./techniques/techniques.html">Techniques</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" class="desktop-link"
-                >Publication <i class="fas fa-angle-right"></i
-              ></a>
-              <input type="checkbox" id="publicationNavItem" />
-              <label for="publicationNavItem"
-                >Publication<i class="fas fa-angle-right"></i
-              ></label>
-              <ul>
-                <li><a href="../publications/publications.html">Publication</a></li>
-                <li><a href="../publications/peerReviewed.html">Peer reviewed journals publication</a></li>
-                <li><a href="../publications/contributionToChapters.html">Contribution to chapters</a></li>
-                <li><a href="../publications/peerReviewedProceed.html">Peer reviewed proceeeding</a></li>
-                <li><a href="../publications/nonPeerReviewd.html">Non peer reviewed publication</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#" class="desktop-link"
-                >Members <i class="fas fa-angle-right"></i
-              ></a>
-              <input type="checkbox" id="show-services" />
-              <label for="show-services"
-                >Members <i class="fas fa-angle-right"></i
-              ></label>
-              <ul>
-                <li><a href="../members/members.html">Members</a></li>
-                <li><a href="../members/currentStudents.html">Current students</a></li>
-                <li id="hideSubMenu">
-                  <a href="#" class="desktop-link"
-                    >Alumni <i class="fas fa-angle-right"></i
-                  ></a>
-                  <input type="checkbox" id="show-items" />
-                  <label for="show-items"
-                    >Alumni <i class="fas fa-angle-right"></i
-                  ></label>
-                  <ul id="subMenu">
-                    <li class="missouriSTNavLink">
-                      <a href="../members/missouriST.html">Missouri S&T</a>
-                    </li>
-                    <li><a href="../members/washUniAdvisor.html">Washington University-Advisor</a></li>
-                    <li><a href="../members/washUniCoAdvisor.html">Washington University Co Advisor</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="../grants/grants.html">Grants</a></li>
-            <li>
-              <a href="#" class="desktop-link"
-                >Activities <i class="fas fa-angle-right"></i
-              ></a>
-              <input type="checkbox" id="activitiesNavItem" />
-              <label for="activitiesNavItem"
-                >Activities <i class="fas fa-angle-right"></i
-              ></label>
-              <ul>
-                
-                <li><a href="../activities/technical_Education.html">Technical and Educational</a></li>
-                <li>
-                  <a href="../activities/technicalInteraction.html"
-                    >Technical Interactions with National laboratories</a
-                  >
-                </li>
-                <li><a href="../activities/invitedTalks.html">Invited Talks</a></li>
-                <li><a href="../activities/news_media.html">News and The Media</a></li>
-              </ul>
-            </li>
-            <li><a href="../collaborators/collaborators.html">Collaborators</a></li>
-            <li>
-              <a href="#" class="desktop-link"
-                >Awards <i class="fas fa-angle-right"></i
-              ></a>
-              <input type="checkbox" id="awardsNavItem" />
-              <label for="awardsNavItem"
-                >Awards & Honors <i class="fas fa-angle-right"></i
-              ></label>
-              <ul>
-                
-                <li><a href="../awards_honors/selectedAwards.html">Selected Awards</a></li>
-                <li>
-                  <a href="../awards_honors/selectedHonors.html">Selected Honors and Recognitions</a>
-                </li>
-                <li>
-                  <a href="../awards_honors/selectedRecognition.html"
-                    >Selected Recognitions by Iraqi Universities and Higher
-                    Education</a
-                  >
-                </li>
-                <li><a href="../awards_honors/selectedRecentTechnicalReports.html">Selected recent technical reports</a></li>
-              </ul>
-            </li>
-            <li><a href="../contactUs/contactUs.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="showNavbar">
+        
+      </div>
+      
     </div>
     <div class="backgroundHome">
        <div class="homeTitle">
@@ -205,21 +92,21 @@
             </h3>
               <div class="mediaContainer">
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">1-Scaled-Down module of Prismatic Very High Temperature Reactor (PVHTR).</p>
+                    <p>1-Scaled-Down module of Prismatic Very High Temperature Reactor (PVHTR).</p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-7.png" alt="">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">2-Scaled-Down module of Pebble Bed Reactor (PBR) .</p>
+                    <p class="specialMargin">2-Scaled-Down module of Pebble Bed Reactor (PBR) .</p>
                     <img src="../../Assets/Research/experimentalSetupRigs/pebblebedreactor.png" alt="">
                    
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">3-High temperature and high pressure pilot plant process that is equipped with various ranges of mass flow-meters for gas and liquid phases and for temperature and pressure monitoring.</p>
+                    <p>3-High temperature and high pressure pilot plant process that is equipped with various ranges of mass flow-meters for gas and liquid phases and for temperature and pressure monitoring.</p>
                     <img src="../../Assets/Research/experimentalSetupRigs/highptnew.png" alt="img">
                     
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">4-Laboratory and Pilot Scales Bubble/Slurry Bubble columns and three phase fluidized beds without and with Internals setup</p>
+                    <p>4-Laboratory and Pilot Scales Bubble/Slurry Bubble columns and three phase fluidized beds without and with Internals setup</p>
                     <video  controls>
                       <source src="../../Assets/Research/experimentalSetupRigs/RPTbubblecolumn.mp4" type="video/mp4">
                       Your browser does not support HTML video.
@@ -237,116 +124,145 @@
                       <img src="../../Assets/Research/experimentalSetupRigs/facilities-12.png" alt="img">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">5-Industrial cold flow Pilot Plant Scale bubble/slurry bubble columns with and without industrial internals
+                    <p>5-Industrial cold flow Pilot Plant Scale bubble/slurry bubble columns with and without industrial internals
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-8.png" alt="">
+                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-20.png" alt="">
                   </div>
-                  <div class="mediaItem">
+                  <!-- <div class="mediaItem">
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-20.png" alt="">
                    
-                  </div>
+                  </div> -->
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">6- Laboratory and Pilot Plant Scales gas-solid Fluidized Beds Set-ups
+                    <p>6- Laboratory and Pilot Plant Scales gas-solid Fluidized Beds Set-ups
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-18.png" alt="">
                   </div> <div class="mediaItem">
-                    <p style="font-size: 17px;">7- Laboratory and Pilot Plant Scales gas-solid Spouted Beds Set-ups
+                    <p>7- Laboratory and Pilot Plant Scales gas-solid Spouted Beds Set-ups
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-11.png" alt="">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">8- Two Phase Flow Packed bed
+                    <p>8- Two Phase Flow Packed bed
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-17.png" alt="">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">9- Two Phase Flow Monolith Bed/Structured Packing Reactor setup
+                    <p>9- Two Phase Flow Monolith Bed/Structured Packing Reactor setup
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-9.png" alt="">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">10- Multiphase Stirred Tank reactor set-up
+                    <p>10- Multiphase Stirred Tank reactor set-up
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/facilities-21.png" alt="">
                   </div>
                   <div class="mediaItem">
-                    <p style="font-size: 17px;">11- Pilot Scale Moving Bed and Pebble Bed Reactors
+                    <p>11- Pilot Scale Moving Bed and Pebble Bed Reactors
                     </p>
                     <img src="../../Assets/Research/experimentalSetupRigs/movingbednew.png" alt="">
-                  </div>
-                  <div class="mediaItem">
                     <video   controls>
                       <source src="../../Assets/Research/experimentalSetupRigs/pebblebedmoving.mp4" type="video/mp4">
                       Your browser does not support HTML video.
                     </video>
-                    </div>
+                  </div>   
                     <div class="mediaItem">
-                      <p style="font-size: 17px;">12-Air Lift and bubble column Bioreactors and Photo-bioreactors set-ups: air-lift split bioreactor and tubular Bioreactor. </p>
+                      <p>12-Air Lift and bubble column Bioreactors and Photo-bioreactors set-ups: air-lift split bioreactor and tubular Bioreactor. </p>
+                      <img style="margin-bottom: 11px;" src="../../Assets/Research/experimentalSetupRigs/Bioreactor.jpg" alt="">
                       <video  controls>
                         <source src="../../Assets/Research/experimentalSetupRigs/RPTairliftreactor.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                       </video>
+                      
+
                     </div>
+                   
                     <div class="mediaItem">
-                      <img src="../../Assets/Research/experimentalSetupRigs/Bioreactor.jpg" alt="">
-                    </div>
-                    <div class="mediaItem">
-                      <img src="../../Assets/Research/experimentalSetupRigs/photobioreactor.png" alt="">
-                    </div>
-                    <div class="mediaItem">
-                      <p style="font-size: 17px;">13- 6 inch and 18 inch diameter bubble and slurry bubble columns and gas-liquid-solid fluidized beds setups that are equipped with and without internals.
+                      <p>13- 6 inch and 18 inch diameter bubble and slurry bubble columns and gas-liquid-solid fluidized beds setups that are equipped with and without internals.
                       </p>
-                      <img src="../../Assets/Research/experimentalSetupRigs/facilities-19.png" alt="">
-                    </div>
-                    <div class="mediaItem">
-                      <video  controls>
+                      <img style="margin-bottom: 11px;" src="../../Assets/Research/experimentalSetupRigs/facilities-19.png" alt="">
+                       <video  controls>
                         <source src="../../Assets/Research/experimentalSetupRigs/slurrububblecolumn.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                       </video>
                     </div>
+                    <!-- <div class="mediaItem">
+                      <video  controls>
+                        <source src="../../Assets/Research/experimentalSetupRigs/slurrububblecolumn.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                      </video>
+                    </div> -->
                     <div class="mediaItem">
-                      <p style="font-size: 17px;">14-Membrane Filtration Module.
+                      <p>14-Membrane Filtration Module.
                       </p>
-                      <img src="../../Assets/Research/experimentalSetupRigs/MembraneFiltrationModule.jpg" alt="">
+                      <img style="margin-bottom: 11px;" src="../../Assets/Research/experimentalSetupRigs/MembraneFiltrationModule.jpg" alt="">
+                        <img src="../../Assets/Research/experimentalSetupRigs/molecularfiltration2.jpg" alt="">
+
                     </div>
                     <div class="mediaItem">
-                      <p style="font-size: 17px;" >15-Molecular Filtration Module.
+                      <p >15-Molecular Filtration Module.
                       </p>
                       <img src="../../Assets/Research/experimentalSetupRigs/Molecularfiltration.jpg" alt="">
                     </div>
-                    <div class="mediaItem">
-                        <img src="../../Assets/Research/experimentalSetupRigs/molecularfiltration2.jpg" alt="">
-                    </div> 
+                     <div class="mediaItem">
+                      <p >16-Pressure transducers.
+                      </p>
+                      <img src="../../Assets/Research/Experimental set-ups and rigs under development and consideration/picture3.png" alt="">
+                    </div>
+                     <div class="mediaItem">
+                      <p >17- 6 inch and 1 ft. multiphase packed bed setups.
+                      </p>
+                      <img src="../../Assets/Research/Experimental set-ups and rigs under development and consideration/picture6.png" alt="">
+                    </div>
+                     <div class="mediaItem">
+                      <p >18- Laboratory and pilot plan scales High Pressure columns for various multiphase flow systems
+                      </p>
+                    </div>
+                     <div class="mediaItem">
+                      <p >19- Multiphase packed bed systems for catalyst testing
+                      </p>
+                    </div>
+                     <div class="mediaItem">
+                      <p >20-Industrial 24 inch diameter bubble and slurry bubble columns and gas-liquid-solid fluidized bed setups that are equipped with and without Industrial heat exchanging internals
+                      </p>
+                    </div>
+                     <div class="mediaItem">
+                      <p >21-Two 1 liter autoclave reactors
+                      </p>
+                    </div>
+                    
                 </div>
-                <h3 class="text-start" style="color:maroon;">Available Experimental set-ups and Rigs
+                <!-- <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsam?</div> -->
+                <!-- <h3 class="text-start" style="color:maroon;">Available Experimental set-ups and Rigs
                 </h3>
                 <div class="mediaContainer">
                   <div class="mediaItem">
-                    <p class="text-start" style="font-size: 17px;">1- Laboratory and pilot plan scales High Pressure columns for various multiphase flow systems
+                    <p class="text-start">1- Laboratory and pilot plan scales High Pressure columns for various multiphase flow systems
                     </p>
-                    <p class="text-start" style="font-size: 17px;">2- Multiphase packed bed systems for catalyst testing</p>
-                    <p class="text-start" style="font-size: 17px;">3- Pressure transducers
+                    <p class="text-start">2- Multiphase packed bed systems for catalyst testing</p>
+                    <p class="text-start">3- Pressure transducers
                     </p>
 
                     <img src="../../Assets/Research/Experimental set-ups and rigs under development and consideration/picture3.png" alt="">
                   </div>
-                  <!-- dummy media item -->
+                  dummy media item
                   <div class="mediaItem">  
                   </div>
                   <div class="mediaItem">
-                    <p class="text-start" style="font-size: 17px;">4- Industrial 24 inch diameter bubble and slurry bubble columns and gas-liquid-solid fluidized bed setups that are equipped with and without Industrial heat exchanging internals
+                    <p class="text-start">4- Industrial 24 inch diameter bubble and slurry bubble columns and gas-liquid-solid fluidized bed setups that are equipped with and without Industrial heat exchanging internals
                     </p>
-                    <p class="text-start" style="font-size: 17px;">5- 6 inch and 1 ft. multiphase packed bed setups
+                    <p class="text-start">5- 6 inch and 1 ft. multiphase packed bed setups
                     </p>
-                    <pclass="text-start" style="font-size: 17px;">6- 2 inch monolith setup
+                    <pclass="text-start">6- 2 inch monolith setup
                     </p>
                     <img src="../../Assets/Research/Experimental set-ups and rigs under development and consideration/picture6.png" alt="">
                    
                   </div>
                 </div>
 
-                <p class="text-start" style="font-size: 17px;">7- Two 1 liter autoclave reactors</p>
-                <p class="text-start" style="font-size: 17px;">8- Pilot Plant scale (18 inch diameter) gas-solid Fluidized bed set-up.</p>
+                <p class="text-start">7- Two 1 liter autoclave reactors</p>
+                <p class="text-start">8- Pilot Plant scale (18 inch diameter) gas-solid Fluidized bed set-up.</p> -->
+           
                 <div
             id="researchCarouselSlider"
             class="carousel slide"
@@ -437,9 +353,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-              
-              
-
+         
                   
           </section>
           
@@ -481,7 +395,7 @@
         >© Multiphase Reactors Engineering and Applications Laboratory</span
       >
     </footer>
-    <script src="/scripts/index.js"></script>
+    <script src="../../scripts/research/index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

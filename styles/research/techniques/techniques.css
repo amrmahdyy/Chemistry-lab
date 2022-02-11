@@ -1,18 +1,18 @@
 ul li a {
   text-decoration: none;
 }
-#myimage{
+#myimage {
   width: 60%;
   left: 0px;
   right: 0px;
 }
 
-#myimage img{
+#myimage img {
   width: 100%;
   left: 0px;
   right: 0px;
 }
 .videoContainer video {
   display: block;
-    margin: 0 auto;
+  margin: 0 auto;
 }
